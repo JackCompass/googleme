@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="add dummy data in discovery section" />
+    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="some more dummy data">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,6 +50,8 @@
       <workItem from="1661689338984" duration="679000" />
       <workItem from="1661712697956" duration="1854000" />
       <workItem from="1661715131217" duration="210000" />
+      <workItem from="1661715424448" duration="222000" />
+      <workItem from="1662622858558" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="add snippets project information">
       <created>1661559309800</created>
@@ -105,7 +109,14 @@
       <option name="project" value="LOCAL" />
       <updated>1661715234721</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="some more dummy data">
+      <created>1661715555571</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1661715555571</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +142,7 @@
     <MESSAGE value="add discoveries section" />
     <MESSAGE value="set discovery file name rule" />
     <MESSAGE value="add dummy data in discovery section" />
-    <option name="LAST_COMMIT_MESSAGE" value="add dummy data in discovery section" />
+    <MESSAGE value="some more dummy data" />
+    <option name="LAST_COMMIT_MESSAGE" value="some more dummy data" />
   </component>
 </project>
