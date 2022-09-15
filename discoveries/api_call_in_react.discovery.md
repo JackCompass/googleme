@@ -16,3 +16,18 @@ In the previous example, we don’t need to update the document title (our effec
 This is how you make an async call using the useEffect Hook:
 
 [Official Website of ReactJs](https://reactjs.org/)
+
+
+```js
+import { signal } from '@preact/react-signal';
+const Home = () => {
+  const counter = singal(0);
+  return (
+    <>
+      <h2>Here is the value of singal {counter.value}</h2>
+    </>
+  )
+}
+
+export default Home;
+```
