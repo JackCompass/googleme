@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="some more dummy data">
+    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="content updated">
+      <change afterPath="$PROJECT_DIR$/discoveries/parse_markdown_in_react.discovery.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -30,6 +31,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;TF_FMT&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -52,6 +54,8 @@
       <workItem from="1661715131217" duration="210000" />
       <workItem from="1661715424448" duration="222000" />
       <workItem from="1662622858558" duration="435000" />
+      <workItem from="1663258206897" duration="3626000" />
+      <workItem from="1663268700704" duration="364000" />
     </task>
     <task id="LOCAL-00001" summary="add snippets project information">
       <created>1661559309800</created>
@@ -116,7 +120,28 @@
       <option name="project" value="LOCAL" />
       <updated>1661715555571</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="hyperlink testing">
+      <created>1663258411649</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1663258411649</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add code blocks in the markdown">
+      <created>1663259333833</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1663259333833</updated>
+    </task>
+    <task id="LOCAL-00012" summary="content updated">
+      <created>1663265323065</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1663265323066</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +168,9 @@
     <MESSAGE value="set discovery file name rule" />
     <MESSAGE value="add dummy data in discovery section" />
     <MESSAGE value="some more dummy data" />
-    <option name="LAST_COMMIT_MESSAGE" value="some more dummy data" />
+    <MESSAGE value="hyperlink testing" />
+    <MESSAGE value="add code blocks in the markdown" />
+    <MESSAGE value="content updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="content updated" />
   </component>
 </project>
