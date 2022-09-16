@@ -4,7 +4,7 @@ markup language. It is a way to style text on the web. You can control the displ
 
 
 In order to render markdown in react we need to install the following packages:
-```text
+```markdown
 1. react-markdown
 2. remark-gfm (Optional)
 ```
