@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="content updated">
-      <change afterPath="$PROJECT_DIR$/discoveries/parse_markdown_in_react.discovery.md" afterDir="false" />
+    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="add discovery post related to markdown">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +30,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;TF_FMT&quot;: &quot;false&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/anuj_singh/WebstormProjects/aboutme&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -55,7 +55,8 @@
       <workItem from="1661715424448" duration="222000" />
       <workItem from="1662622858558" duration="435000" />
       <workItem from="1663258206897" duration="3626000" />
-      <workItem from="1663268700704" duration="364000" />
+      <workItem from="1663268700704" duration="996000" />
+      <workItem from="1663269746885" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="add snippets project information">
       <created>1661559309800</created>
@@ -141,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663265323066</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="add discovery post related to markdown">
+      <created>1663269641208</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1663269641208</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +179,7 @@
     <MESSAGE value="hyperlink testing" />
     <MESSAGE value="add code blocks in the markdown" />
     <MESSAGE value="content updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="content updated" />
+    <MESSAGE value="add discovery post related to markdown" />
+    <option name="LAST_COMMIT_MESSAGE" value="add discovery post related to markdown" />
   </component>
 </project>
