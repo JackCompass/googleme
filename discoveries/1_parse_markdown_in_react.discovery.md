@@ -1,4 +1,4 @@
-# Render MD files in React/NextJs.
+<h1><u>Render MD files in React/NextJs.</u></h1>
 Before we begin to learn how to render markdown in react we should know that markdown is a 
 markup language. It is a way to style text on the web. You can control the display of the document.
 
