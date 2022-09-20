@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="add html tags" />
+    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="remove few testing post" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +57,7 @@
       <workItem from="1663269746885" duration="80000" />
       <workItem from="1663304678366" duration="524000" />
       <workItem from="1663308222411" duration="1219000" />
+      <workItem from="1663690764923" duration="1769000" />
     </task>
     <task id="LOCAL-00001" summary="add snippets project information">
       <created>1661559309800</created>
@@ -170,7 +171,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663308836907</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="change the heading back to normal">
+      <created>1663690842023</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1663690842023</updated>
+    </task>
+    <task id="LOCAL-00018" summary="remove few testing post">
+      <created>1663691022805</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663691022805</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +219,8 @@
     <MESSAGE value="file name contain sno" />
     <MESSAGE value="change to markdown style" />
     <MESSAGE value="add html tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="add html tags" />
+    <MESSAGE value="change the heading back to normal" />
+    <MESSAGE value="remove few testing post" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove few testing post" />
   </component>
 </project>
