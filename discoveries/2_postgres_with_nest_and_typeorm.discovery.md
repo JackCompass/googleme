@@ -10,7 +10,7 @@ In this discussion we will see how we can configure Postgres Database with typeo
 
 ## Working with the database
 Assuming you have a basic nestJs project setup you can go ahead and run the following command to install the following packages.
-```typescript
+```bash
 npm i @nestjs/typeorm typeorm pg 
 ```
 Once you have the necessary packages installed you are ready to connect your nestjs application with Postgres. The following code shows you how you can do it.
@@ -33,7 +33,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 })
 export class AppModule {}
 ```
-If you want you can create an ormconfig.json file and specify all the configuration there but I like it this way. Above, there is a synchronize setting that should always be false in production. What it basically does is it tries to keep your database in sync with the code that you have written in your app. you can find more about it [here](https://typeorm.io/data-source-options#common-data-source-options).
+If you want you can create an ormconfig.json file and specify all the configuration there, but I like it this way. Above, there is a synchronize setting that should always be false in production. What it basically does is it tries to keep your database in sync with the code that you have written in your app. you can find more about it [here](https://typeorm.io/data-source-options#common-data-source-options).
 Instead of mentioning entites manually you can pass another setting `autoLoadEntites: true` which will automatically load entites on the fly. But I like to have fine grained control over my application so I prefer this way.
 
 Once you have reached up to this point, you can go ahead and create a class and annotate with `@Entity()` decorator to make it an entity which is basically symbolizes a relation in the database.
@@ -78,6 +78,27 @@ In the above options there is one option that needs a bit of exploration, and it
 - datetime, timestamp, time with time zone, time without time zone etc
 
 
+Once you have the entity you are ready to write some queries to perform some operations on the database. We will follow the repository pattern but if you want you can follow the active mapper pattern as well.
+```js
+@Injectable()
+export class UserService {
+  constructor( @InjectRepository(User) userRepository: Repository<User>) {}
+}
+```
+Once you create the repository you can use the following methods to perform CRUD operations on the database.
+- **create**: to create repository object to save in the database.
+```js
+// Use this and save time 
+const user = this.userRepository.create({name: 'John'});
+// you could do this as well
+const user = new User();
+user.name = 'John';
+```
+- **save**: to save the object in the database and if already exist update the object. Don't use insert as it not return the inserted data.
+```js
+// It takes a list of all the objects that needs to save/update.
+await this.userRepository.save(user);
+```
 
 
 
