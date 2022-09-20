@@ -37,8 +37,8 @@ If you want you can create an ormconfig.json file and specify all the configurat
 Instead of mentioning entites manually you can pass another setting `autoLoadEntites: true` which will automatically load entites on the fly. But I like to have fine grained control over my application so I prefer this way.
 
 Once you have reached up to this point, you can go ahead and create a class and annotate with `@Entity()` decorator to make it an entity which is basically symbolizes a relation in the database.
-```
-import {Entity} from @nestjs/typeorm;
+```js
+import {Entity} from "@nestjs/typeorm";
 @Entity()
 export class User {}
 ```
@@ -47,7 +47,7 @@ Great, now we have our first Entity. We gotta tell typeorm about this entity, so
 Now we have everything setup we can discuss about the Columns, Relation mapping and the options that we generally use with postgres database.
 
 To create a column you need to create a field in the entity class and annotate that field with the `@Column()` decorator.
-```
+```js
 @Entity()
 export class User {
     @Column()
@@ -55,7 +55,7 @@ export class User {
 }
 ```
 this is a very basic example of how we can do it. but most of the time we have some constraints that we also have to follow for example we only want to allow string data for this field, we can do that by passing the options. Inside the column, we can pass an object like this
-```
+```typescript
 @Column({type: string})
 ```
 It ensures that the data is always going to be string and if not then it will result in error. Similarly, we have some more options that we use frequently
