@@ -10,7 +10,7 @@ In this discussion we will see how we can configure Postgres Database with typeo
 
 ## Working with the database
 Assuming you have a basic nestJs project setup you can go ahead and run the following command to install the following packages.
-```bash
+```typescript
 npm i @nestjs/typeorm typeorm pg 
 ```
 Once you have the necessary packages installed you are ready to connect your nestjs application with Postgres. The following code shows you how you can do it.
@@ -47,7 +47,7 @@ Great, now we have our first Entity. We gotta tell typeorm about this entity, so
 Now we have everything setup we can discuss about the Columns, Relation mapping and the options that we generally use with postgres database.
 
 To create a column you need to create a field in the entity class and annotate that field with the `@Column()` decorator.
-```js
+```typescript
 @Entity()
 export class User {
     @Column()

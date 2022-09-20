@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="remove few testing post" />
+    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="post update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +58,7 @@
       <workItem from="1663304678366" duration="524000" />
       <workItem from="1663308222411" duration="1219000" />
       <workItem from="1663690764923" duration="1769000" />
+      <workItem from="1663699841942" duration="417000" />
     </task>
     <task id="LOCAL-00001" summary="add snippets project information">
       <created>1661559309800</created>
@@ -185,7 +186,21 @@
       <option name="project" value="LOCAL" />
       <updated>1663691022805</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="new post">
+      <created>1663700113042</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1663700113042</updated>
+    </task>
+    <task id="LOCAL-00020" summary="post update">
+      <created>1663700227871</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1663700227871</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +236,8 @@
     <MESSAGE value="add html tags" />
     <MESSAGE value="change the heading back to normal" />
     <MESSAGE value="remove few testing post" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove few testing post" />
+    <MESSAGE value="new post" />
+    <MESSAGE value="post update" />
+    <option name="LAST_COMMIT_MESSAGE" value="post update" />
   </component>
 </project>
