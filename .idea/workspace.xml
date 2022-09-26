@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="post update" />
+    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="update nestjs_with_typeorm_and_postgres post">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +60,8 @@
       <workItem from="1663304678366" duration="524000" />
       <workItem from="1663308222411" duration="1219000" />
       <workItem from="1663690764923" duration="1769000" />
-      <workItem from="1663699841942" duration="417000" />
+      <workItem from="1663699841942" duration="2817000" />
+      <workItem from="1664213818013" duration="124000" />
     </task>
     <task id="LOCAL-00001" summary="add snippets project information">
       <created>1661559309800</created>
@@ -200,7 +203,28 @@
       <option name="project" value="LOCAL" />
       <updated>1663700227871</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="post update">
+      <created>1663700322509</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1663700322509</updated>
+    </task>
+    <task id="LOCAL-00022" summary="set name convention for discovery files">
+      <created>1663700971262</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1663700971263</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update nestjs_with_typeorm_and_postgres post">
+      <created>1663702585033</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1663702585033</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +262,8 @@
     <MESSAGE value="remove few testing post" />
     <MESSAGE value="new post" />
     <MESSAGE value="post update" />
-    <option name="LAST_COMMIT_MESSAGE" value="post update" />
+    <MESSAGE value="set name convention for discovery files" />
+    <MESSAGE value="update nestjs_with_typeorm_and_postgres post" />
+    <option name="LAST_COMMIT_MESSAGE" value="update nestjs_with_typeorm_and_postgres post" />
   </component>
 </project>

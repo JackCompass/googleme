@@ -94,12 +94,34 @@ const user = this.userRepository.create({name: 'John'});
 const user = new User();
 user.name = 'John';
 ```
-- **save**: to save the object in the database and if already exist update the object. Don't use insert as it not return the inserted data.
+- **save**: to save the object in the database and if already exist **update** the object. Don't use insert as it not return the inserted data.
 ```js
 // It takes a list of all the objects that needs to save/update.
 await this.userRepository.save(user);
 ```
 
+- **find**: to find the object in the database. 
+```js
+// Return all the users in the relation.
+await this.userRepository.find();
+// Return the user with the provided id.
+await this.userRepository.findOneBy({id: given_id});
+// Or also you could use this with try catch block
+try {
+    const user = await this.userRepository.findOneOrFail({id: given_id});
+} catch (error) {
+    // handle error
+}
+```
+- **delete**: to delete the object from a relation in the database.
+```js
+// Delete the user with the provided id.
+await this.userRepository.delete({id: given_id});
+```
+
+## What After this?
+If you have made this far then that means you are ready to work with typeORM and postgres. I hope this article was helpful to you.
+In the next article I will try to cover how we can build SQL queries with query builder.
 
 
 
