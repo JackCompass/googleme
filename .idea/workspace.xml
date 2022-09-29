@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="update nestjs_with_typeorm_and_postgres post">
+    <list default="true" id="b1a92e2c-6457-47a7-b05e-786fd6040d30" name="Changes" comment="finish typeORM with nestJs and Postgres post">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,6 +62,8 @@
       <workItem from="1663690764923" duration="1769000" />
       <workItem from="1663699841942" duration="2817000" />
       <workItem from="1664213818013" duration="124000" />
+      <workItem from="1664217156969" duration="1664000" />
+      <workItem from="1664295712415" duration="46000" />
     </task>
     <task id="LOCAL-00001" summary="add snippets project information">
       <created>1661559309800</created>
@@ -224,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1663702585033</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="finish typeORM with nestJs and Postgres post">
+      <created>1664218201495</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1664218201495</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,6 +273,7 @@
     <MESSAGE value="post update" />
     <MESSAGE value="set name convention for discovery files" />
     <MESSAGE value="update nestjs_with_typeorm_and_postgres post" />
-    <option name="LAST_COMMIT_MESSAGE" value="update nestjs_with_typeorm_and_postgres post" />
+    <MESSAGE value="finish typeORM with nestJs and Postgres post" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish typeORM with nestJs and Postgres post" />
   </component>
 </project>
