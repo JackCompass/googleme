@@ -94,6 +94,7 @@ const user = this.userRepository.create({name: 'John'});
 const user = new User();
 user.name = 'John';
 ```
+[NOTE]: If you directly pass the js object in the save method. It would not trigger the listeners in the typeORM. So you must create the entity object first.
 - **save**: to save the object in the database and if already exist **update** the object. Don't use insert as it not return the inserted data.
 ```js
 // It takes a list of all the objects that needs to save/update.
