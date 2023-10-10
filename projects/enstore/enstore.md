@@ -1,5 +1,5 @@
 # **Enstore**
-**Enstore** is just a bash script that help you to store and fetch your credentials. All the data is going to remain on your local drive/storage.
+**Enstore** is a bash script that help you to store and fetch your credentials. All the data is going to remain on your local drive/storage.
 In a nutshell it is just a utility script that could be used to store and fetch the credentials from the command line itself.
 
 Generally, we store credentials somewhere in our system and when we need them we open the file and copy it and then use it. This is a little cumbersome process when you have to do it frequently.
