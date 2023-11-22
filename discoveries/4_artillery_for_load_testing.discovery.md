@@ -1,4 +1,4 @@
-# Load Testing Like a Pro: Unleash the Power of Artillery in Your Backend! 🚀💪
+# Load Testing Like a Pro: Unleash the Power of Artillery in Your Backend!! 🚀💪
 
 Hey there, fellow developers! Are you ready to take your backend game to the next level? Buckle up because we're about to dive into the exciting world of load testing with Artillery! 😎 In this article, we'll explore why load testing is crucial for your backend applications and how Artillery can become your trusty sidekick in ensuring peak performance. Let's get started! 🚀
 
