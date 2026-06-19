@@ -130,5 +130,5 @@ color_yellow = '#d79921'
 **Starship Tip:**
 The key to a good prompt is balance. I show only the most relevant information (git branch, language versions, time) without cluttering. You can customize each module's format individually to match your workflow.
 
-Here's a [screenshot of my starship setup](https://example.com/starship-screenshot.png) in action.
+Here's a [screenshot of my starship setup](https://github.com/JackCompass/googleme/blob/master/images/screenfetch.png) in action.
 
